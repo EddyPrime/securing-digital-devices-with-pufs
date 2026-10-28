@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+
+message: "If you use this software in academic work, please cite the accompanying PhD thesis and the relevant publications listed in the project documentation."
+
+type: software
+
+title: "Research Software for Securing Digital Devices with Physical Unclonable Functions"
+
+authors:
+  - family-names: Liberati
+    given-names: Edoardo
+
+repository-code: "https://github.com/EddyPrime/securing-digital-devices-with-pufs"
+
+preferred-citation:
+  type: thesis
+  authors:
+    - family-names: Liberati
+      given-names: Edoardo
+  title: "Securing Digital Devices with Physical Unclonable Functions"
+  year: 2026
+  thesis-type: "PhD thesis"
+  institution:
+    name: "Sapienza University of Rome"

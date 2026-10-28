@@ -1,0 +1,89 @@
+BasedOnStyle: LLVM
+
+AlignAfterOpenBracket: true
+
+AlignArrayOfStructures: Right
+
+AlignConsecutiveAssignments:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveDeclarations:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveMacros:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: false
+
+AlignConsecutiveShortCaseStatements:
+  Enabled: true
+  AcrossEmptyLines: true
+  AcrossComments: true
+  AlignCaseColons: false
+
+AlignEscapedNewlines: LeftWithLastLine
+
+AlignOperands: Align
+
+AlignTrailingComments:
+  Kind: Always
+  OverEmptyLines: 2
+
+AllowShortBlocksOnASingleLine: Never
+
+AllowShortCaseLabelsOnASingleLine: true
+
+AllowShortEnumsOnASingleLine: false
+
+# AllowShortFunctionsOnASingleLine:
+#   Empty: false
+#   Inline: true
+#   Other: false
+
+AllowShortIfStatementsOnASingleLine: true
+
+AllowShortLoopsOnASingleLine: true
+
+BreakBeforeBinaryOperators: None
+
+BreakBeforeBraces: Attach
+
+BreakBeforeTernaryOperators: true
+
+BreakConstructorInitializers: BeforeColon
+
+BinPackArguments: true
+
+BinPackParameters: true
+
+ColumnLimit: 100
+
+CompactNamespaces: false
+
+ConstructorInitializerIndentWidth: 4
+
+ContinuationIndentWidth: 4
+
+Cpp11BracedListStyle: true
+
+FixNamespaceComments: true
+
+IncludeBlocks: Regroup
+
+IndentWidth: 4
+
+NamespaceIndentation: None
+
+PointerAlignment: Right
+
+SortIncludes: CaseSensitive
+
+Standard: Auto
+
+TabWidth: 4
+
+UseTab: Never

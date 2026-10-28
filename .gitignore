@@ -1,0 +1,30 @@
+# Build artefacts
+bin/
+obj/
+build/
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Debugging and profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+# core
+# core.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating-system metadata
+.DS_Store
+__MACOSX/
+._*

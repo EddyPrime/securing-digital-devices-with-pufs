@@ -1,0 +1,28 @@
+
+# Git metadata
+.git/
+
+# Generated build files
+**/build/
+**/bin/
+**/obj/
+*.o
+*.a
+*.so
+*.d
+
+# Operating-system metadata
+.DS_Store
+**/.DS_Store
+__MACOSX/
+**/._*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local archives
+*.zip
